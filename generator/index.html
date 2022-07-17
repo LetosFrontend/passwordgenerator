@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Generator Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect"  href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylescheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Generate Password</h2>
+      <div class="el">
+        <input type="text" placeholder="Password" class="inp" id="password" />
+        <button onclick="copyText()" title="Copy">Copy</button>
+        <button onclick="generatePassword()" title="Generate">Generate</button>
+      </div>
+    </div>
+    <div class="info">Copied to clipboard!</div>
+    <script src="generator.jsx"></script>
+  </body>
+</html>
